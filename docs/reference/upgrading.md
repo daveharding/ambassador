@@ -30,7 +30,7 @@ Ambassador 0.50.0 adds the v1 API. All future Ambassador features will be create
 While for the most part, upgrading from v0 to v1 is as simple as changing the `apiVersion` in the resource definition, there are a couple of breaking changes that need to be addressed. 
 
 **Rate Limiting**
-The [rate_limits](/reference/rate-limits/) `Mapping` attribute is replaced by `labels` in the v1 API. Ambassador 0.50.0 requires the v1 `Mapping` API for rate limtiing. See the [rate limiting tutorial](/user-guide/rate-limiting-tutorial#v1-api) and [rate limits](/reference/rate-limits/) documentation for more information. 
+The [rate_limits](/reference/rate-limits/) `Mapping` attribute is replaced by `labels` in the v1 API. Ambassador 0.50.0 requires the v1 `Mapping` API for rate limiting. See the [rate limiting tutorial](/user-guide/rate-limiting-tutorial#v1-api) and [rate limits](/reference/rate-limits/) documentation for more information. 
 
 **AuthService**
 The v1 `AuthService` API adds a number of features that require configuration changes. Please refer to the [authentication documentation](/reference/services/auth-service) for more information on how to upgrade.
