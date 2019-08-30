@@ -35,7 +35,7 @@ service: tour3
 will map requests for `/` to
 
 - the `tour2` service if the `Host` header is `tour.datawire.io`;
-- the `toru3` service if the `Host` header matches `^tour[2-9]\\.datawire\\.io$`; and to
+- the `tour3` service if the `Host` header matches `^tour[2-9]\\.datawire\\.io$`; and to
 - the `tour1` service otherwise.
 
 Note that enclosing regular expressions in quotes can be important to prevent backslashes from being doubled.
